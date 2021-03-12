@@ -1,0 +1,75 @@
+body {
+	background-color: #75cfb8;
+	background: 
+		linear-gradient(90deg,
+			rgba(106, 19, 19,90%), 
+			rgba(106, 19, 19,87%),
+			rgba(106, 19, 19,79%),
+			rgba(106, 19, 19,69%),
+			rgba(106, 19, 19,0%)) no-repeat,
+		url(img/steak.jpg);
+	background-size: cover;
+	font-family: Finger Paint;
+	height: 800px;
+
+}
+
+h1 {
+	background-color: #f0e5d8;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Amatic SC;
+}
+
+.nav ul li { /*nav*/
+	float: right;
+	margin:5px
+	width:600px;
+	border-color: #6A1313;
+}
+/*Este es un div*/
+.panel {
+	width: 30%;
+	height: 700px;
+	background-color: orange;
+	color: white;
+	opacity: 70%;
+	padding: 40px;
+	padding-top: 60px;
+
+}
+
+.nav li { /*li*/
+	float: left;
+	margin: 1px 25px;
+	text-align: center;
+							/* Codigos de ediciones anteriores
+								width: 150px;
+								border-width: 1px:;
+								border-style: solid;
+								border-color: orange;*/
+	border-radius: 10px
+}
+.nav ul li:hover { /*li:hover*/
+	background-color:#5eaaa8;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	width: 150px;
+	display: block;
+}
+a:hover {
+	color: orange;
+}
+p {
+	text-align: justify;
+}
+img {
+	height: 110px;
+	position: absolute;
+	left: 5px;
+	top:0px;
+}
